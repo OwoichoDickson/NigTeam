@@ -1,0 +1,29 @@
+@NigTeam_HostAddress = http://localhost:5137
+
+GET {{NigTeam_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+GET http://localhost:5137/GetTeams
+
+###
+//create user
+POST http://localhost:5137/api/auth/create
+Content-Type: application/json
+
+{
+    "Username" : "Duna", 
+    "Password": "DUNA@20", 
+    "Role" : "User"
+}
+
+###
+POST http://localhost:5137/api/auth/login
+Content-Type: application/json
+
+{
+    "Username" : "Duna",  
+    "Password": "DUNA@20",
+    "Role" : "User",
+    
+}
