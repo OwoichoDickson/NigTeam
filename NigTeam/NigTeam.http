@@ -12,7 +12,7 @@ POST http://localhost:5137/api/auth/create
 Content-Type: application/json
 
 {
-    "Username" : "Duna", 
+    "Username" : "Dunae", 
     "Password": "DUNA@20", 
     "Role" : "User"
 }
@@ -23,7 +23,7 @@ Content-Type: application/json
 
 {
     "Username" : "Duna",  
-    "Password": "DUNA@20",
-    "Role" : "User",
+    "Password": "DUNA@20"
+    
     
 }
